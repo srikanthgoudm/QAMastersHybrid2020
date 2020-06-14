@@ -59,7 +59,6 @@ Feature: User login for Automation Practise
 #    Then I should not be loggedIn
 #    And I should see validation message as "Authentication failed."
 
-
   @regression @smoke
   Scenario Outline: Verify User can see vaidation messages for invalid credentials
     Given  I am on the homepage
